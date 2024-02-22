@@ -1,4 +1,4 @@
-package com.sapir.namesfinder;
+package com.sapir.namesfinder.namesfinder;
 
 public class Name {
     private String FirstChar;

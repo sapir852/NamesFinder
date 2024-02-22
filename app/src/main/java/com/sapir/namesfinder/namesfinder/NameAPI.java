@@ -1,12 +1,11 @@
-package com.sapir.namesfinder;
+package com.sapir.namesfinder.namesfinder;
 
 import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
-import retrofit2.http.Path;
 
-    public interface NameAPI {
+public interface NameAPI {
 
         @GET("raw/KRc8xhkF")
          Call<List<Name>> loadName();

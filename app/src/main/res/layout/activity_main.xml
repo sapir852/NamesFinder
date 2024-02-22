@@ -1,18 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/ic_bg">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <!-- First Button: List by Names -->
+    <Button
+        android:id="@+id/btnListNames"
+        android:layout_width="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="List by Names" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!-- Second Button: List by Letter -->
+    <Button
+        android:id="@+id/btnListByLetter"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="List by Letter" />
+
+    <!-- Third Button: List by Category -->
+    <Button
+        android:id="@+id/btnListByCategory"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="List by Category" />
+
+    <!-- Fourth Button: Letter and Category -->
+    <Button
+        android:id="@+id/btnLetterCategory"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Letter and Category" />
+
+    <!-- Fifth Button: List by Random -->
+    <Button
+        android:id="@+id/btnListByRandom"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="List by Random" />
+</LinearLayout>

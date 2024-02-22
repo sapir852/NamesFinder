@@ -1,4 +1,4 @@
-package com.sapir.namesfinder;
+package com.sapir.namesfinder.namesfinder;
 
 import android.util.Log;
 

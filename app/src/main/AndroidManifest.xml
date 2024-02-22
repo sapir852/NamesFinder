@@ -15,7 +15,22 @@
         android:theme="@style/Theme.NamesFinder"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".namesfinder.ActivityRandom"
+            android:exported="false" />
+        <activity
+            android:name=".namesfinder.ActivityFirstLetterAndCategory"
+            android:exported="false" />
+        <activity
+            android:name=".namesfinder.ActivityByCategory"
+            android:exported="false" />
+        <activity
+            android:name=".namesfinder.ActivityFirstLetter"
+            android:exported="false" />
+        <activity
+            android:name=".namesfinder.ActivityAllNames"
+            android:exported="false" />
+        <activity
+            android:name=".namesfinder.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

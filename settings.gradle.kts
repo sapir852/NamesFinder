@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "NamesFinder"
 include(":app")
- 
+include(":NameGenerator")

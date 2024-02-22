@@ -1,6 +1,4 @@
-package com.sapir.namesfinder;
-
-import android.util.Log;
+package com.sapir.namesfinder.namesfinder;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
