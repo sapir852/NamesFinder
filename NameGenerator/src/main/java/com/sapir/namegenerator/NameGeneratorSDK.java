@@ -1,6 +1,4 @@
 package com.sapir.namegenerator;
-import com.sapir.namesfinder.NameController;
-import com.sapir.namesfinder.MyCallback;
 
 import java.util.List;
 public class NameGeneratorSDK {
