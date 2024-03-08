@@ -2,6 +2,9 @@ package com.sapir.namesfinder.namesfinder;
 
 import android.util.Log;
 
+import com.sapir.namegenerator.Name;
+import com.sapir.namegenerator.NameController;
+
 import java.util.List;
 import java.util.Random;
 

@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.google.gson.Gson;
+import com.sapir.namegenerator.Name;
+import com.sapir.namegenerator.NameController;
 import com.sapir.namesfinder.R;
 
 import java.util.ArrayList;

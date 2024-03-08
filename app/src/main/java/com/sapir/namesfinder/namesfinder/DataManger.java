@@ -1,5 +1,7 @@
 package com.sapir.namesfinder.namesfinder;
 
+import com.sapir.namegenerator.Name;
+
 import java.util.ArrayList;
 
 public class DataManger {

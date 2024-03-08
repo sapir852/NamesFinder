@@ -1,4 +1,4 @@
-package com.sapir.namesfinder.namesfinder;
+package com.sapir.namegenerator;
 
 import java.util.List;
 

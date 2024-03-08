@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import com.sapir.namegenerator.NameController;
 import com.sapir.namesfinder.R;
 
 public class ActivityFirstLetter extends AppCompatActivity {
